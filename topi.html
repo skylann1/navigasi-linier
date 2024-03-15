@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-white">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <nav class="">
+        <div class="navbar bg-base-100">
+            <div class="flex-1">
+              <a class="btn btn-ghost text-xl max-sm:text-xs">navigasi linier by sh</a>
+            </div>
+            <div class="flex-none">
+              <ul class="menu menu-horizontal px-1">
+                <li>
+                  <details>
+                    <summary class="max-sm:text-sm">
+                      Hat
+                    </summary>
+                    <ul class="p-2 bg-base-100 rounded-t-none">
+                      <li><a id="next">next</a></li>
+                      <li><a id="back">back</a></li>
+                    </ul>
+                  </details>
+                </li>
+              </ul>
+            </div>
+          </div>
+    </nav>
+
+    <div
+      class="menu display-flex flex-row gap-10 justify-around p-10 pt-24"
+    >
+      <div class="card w-96 bg-base-100 shadow-xl image-full">
+        <figure>
+          <img
+            src=""
+            alt="Shoes"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Hat!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, architecto!?</p>
+          <p>$7.99</p>
+          <div class="rating">
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-3"
+              class="mask mask-star-2 bg-orange-400"
+              checked
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+          </div>
+          <div class="card-actions justify-end">
+            <button
+              class="btn btn-primary active:bg-blue-600"
+              onclick="buy(799)"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card w-96 bg-base-100 shadow-xl image-full">
+        <div class="card-body">
+          <h2 class="card-title">Hat!</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, harum.?</p>
+          <p>$18.99</p>
+          <div class="rating">
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+              checked
+            />
+          </div>
+          <div class="card-actions justify-end">
+            <button
+              class="btn btn-primary active:bg-blue-600"
+              onclick="buy(1899)"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card w-96 bg-base-100 shadow-xl image-full">
+        <div class="card-body">
+          <h2 class="card-title">hat!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
+          <p>$12.50</p>
+          <div class="rating">
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-orange-400"
+              checked
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+          </div>
+          <div class="card-actions justify-end">
+            <button
+              class="btn btn-primary active:bg-blue-600"
+              onclick="buy(1250)"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card w-96 bg-base-100 shadow-xl image-full">
+        <div class="card-body">
+          <h2 class="card-title">Hat!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, deleniti.?</p>
+          <p>$5.99</p>
+          <div class="rating">
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+              checked
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+          </div>
+          <div class="card-actions justify-end">
+            <button
+              class="btn btn-primary active:bg-blue-600"
+              onclick="buy(599)"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+        
+    </div>
+
+      <footer class="w-full footer-center p-4 bg-base-300 text-base-content max-sm:text-[10px]">
+        <aside>
+          <p>Copyright © 2024 - sahlan muzaqi</p>
+        </aside>
+      </footer>
+
+    <script src="topi.js"></script>
+</body>
+</html>
